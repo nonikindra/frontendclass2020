@@ -1,0 +1,414 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 500px;
+    overflow-x: hidden;
+}
+
+/* NavBar */
+nav {
+    display: flex;
+    background-color: #191d24;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    padding: 30px 0;
+    color: white;
+}
+
+nav .logo {
+    font-family: 'dancing script', 'monstserra';
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-around;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.container {
+    background-color: #f4f8f7f3;
+    height: 400px;
+
+}
+
+/* Hero Picture */
+.hero {
+    background-image: url(images/montain.jpg);
+    background-size: cover;
+    width: 100% auto;
+    height: 385px;
+    text-transform: uppercase;
+    padding-left: 100px;
+    padding-top: 200px;
+    
+}
+
+.hero header {
+    line-height: 40px;
+
+}
+
+.hero h2 {
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.hero p {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.hero button {
+width: 15%;
+height: 50px;
+text-transform: uppercase;
+font-size: 20px;
+border-color: white;
+color: white;
+background-color: transparent;
+cursor: pointer;
+}
+
+/* Paragraph */
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    padding: 100px; 
+    line-height: 28px;
+}
+
+.paragraph h2 {
+    font-size: 40px;
+    color: red;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.paragraph button {
+    width: 15%;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-color: red;
+    color: red;
+    cursor: pointer;  
+}
+
+/* Menu Gambar */
+.gambar {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.gambar1 {
+    background-color: rgb(218, 216, 216);
+    padding-left: 100px;
+}
+
+.gambar1 h1 {
+    text-transform: uppercase;
+    color: #e6474b; 
+    padding-top: 30px;  
+    padding-bottom: 10px;
+
+}  
+.gambar1 img {
+    height: 200px;
+    width: 400px;
+    position: relative;
+
+}
+
+.gambar1 p {
+    padding-top: 20px;
+    line-height: 20px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.gambar2 {
+    background-color: rgb(236, 228, 228);
+    padding-left: 130px;
+}
+
+.gambar2 h1 {
+    text-transform: uppercase;
+    color: #e6474b; 
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}  
+.gambar2 img {
+    height: 200px;
+    width: 400px;
+    position: relative;
+}
+
+.gambar2 p {
+    padding-top: 20px;
+    line-height: 20px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+
+/* Menu MINI ICON */
+.menuicon {
+    display: flex;
+    flex-flow: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+}
+
+.menuicon h1 {
+    padding-top: 20px;
+    color: red;
+    letter-spacing: 5px;
+    padding-bottom: 15px;
+}
+
+.menuicon p {
+    padding-bottom: 10px;
+    text-align: left;
+    padding-right: 30px ;
+}
+
+.menuicon button {
+    background-color: white;
+    color: red;
+    border: 3px solid red;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0;
+    cursor: pointer;
+}
+
+
+
+/* Menu Get In Touch */
+.getintouch {
+    background-color: red;
+    color: white;
+    float: left;
+    width: 100%;
+}
+.form {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: 0 80px;
+}   
+
+.getintouch h1 {
+    color: white;
+    padding-top: 40px;
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+}
+.form table {
+    width: 100%;
+    text-align: left;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+input[type=text] {
+    width: 80%;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid silver;
+    margin: 10px 0;
+}
+
+input[type=email] {
+    width: 80%;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid silver;
+    margin: 10px 0;
+}
+
+input[type=submit] {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0;
+    cursor: pointer;
+}
+
+textarea {
+    background-color: transparent;
+    width: 180%;
+    height: 250px;
+    border: 2px solid silver;
+    margin: 10px 0;
+}
+
+.footer {
+    font-weight: lighter;
+    color: grey;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+
+
+
+/* Humberger Menu */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;  
+}
+
+.menu-toggle input {
+    position: absolute;
+    width: 40px;
+    height: 28px; 
+    left: -5px;
+    top: -3px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.menu-toggle span{
+    display: block;
+    width: 24px;
+    height: 3px;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+/* Hamburgar Menu Animation */
+.menu-toggle span:nth-child(2){
+    transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4){
+    transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2){
+    transform: rotate(45deg); translate: (-1px, -1px);
+    background-color: white;
+}
+
+.menu-toggle input:checked ~span:nth-child(4){
+    transform: rotate(-45deg);translate: (-1px, 0);
+    background-color: white;
+}
+
+.menu-toggle input:checked ~span:nth-child(3){
+    opacity: 0;
+    transform: scale(0);
+}
+
+/* Resposive Tablet*/
+@media screen and ( max-width: 768px ) {
+    nav ul {
+        width: 50%;
+    }
+
+
+/* Resposive Mobile */
+@media screen and (max-width: 576px) {
+    body {
+        margin: 0px;
+    }
+    .menu-toggle {
+    display: flex;
+    }
+
+    nav ul {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #191d24;
+        z-index: 0;
+        transform: translateX(100%);
+        transition: all 5s;
+        opacity: 0;
+
+    }
+
+    nav ul.slide {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    header  {
+        font-size: 10px;
+    }
+
+    .hero p{
+        font-size: 30px;
+    }
+
+    .hero button {
+        width: 20%;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .paragraph p {
+        font-weight: 200px;
+        text-align: justify;
+        padding-bottom: 30px;
+        letter-spacing: 1px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .gambar {
+        display: block;
+        position: relative;
+    }
+
+}
+
